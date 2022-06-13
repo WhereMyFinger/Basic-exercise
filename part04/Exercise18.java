@@ -2,11 +2,11 @@ package part04;
 
 import java.util.Scanner;
 
-public class Exercise16 {
+public class Exercise18 {
 	
-	public static boolean checkChar(char ch, String str) {
+	public static boolean check(String str) {
 		for(int i=0; i<str.length(); i++) {
-			if(str.charAt(i) == ch) {
+			if(str.charAt(i) > 48 & str.charAt(i) < 57) {
 				return true;
 			}
 		}
@@ -20,16 +20,10 @@ public class Exercise16 {
 		System.out.println("Input String: ");
 		str = scanner.nextLine();
 		
-		char character;
-		
-		System.out.println("Input character: ");
-		character = scanner.next().charAt(0);
-		
-		if(checkChar(character, str)) {
+		if(check(str)) {
 			System.out.println("Có");
 		} else {
-			System.out.println("Không");
+			System.out.println("không");
 		}
 	}
-
 }
