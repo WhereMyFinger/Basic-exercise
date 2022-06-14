@@ -6,6 +6,7 @@ public class Exercise19 {
 	
 	public static int count(char ch, String str) {
 		int count =0;
+		
 		for(int i=0; i<str.length(); i++) {
 			if(str.charAt(i) == ch) {
 				count++;

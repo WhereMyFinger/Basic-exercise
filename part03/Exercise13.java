@@ -6,6 +6,7 @@ public class Exercise13 {
 	
 	public static int findMin(int size, int[] arr) {
 		int min = 100000;
+		
 		for(int i=0; i<size; i++) {
 			min = arr[i] < min ? arr[i] : min;
 		}
