@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.Scanner;
 
 /**
- * @author Admin
+ * @author nguyenle
  *
  */
 public class Exercise02 {
